@@ -1,0 +1,41 @@
+{
+  "name": "express-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "Boca Code",
+    "email": "",
+    "url": ""
+  },
+  "contributors": ["Pat belcher",
+  "John Smith"
+
+  ],
+  "scripts": {
+    "start": "nodemon .",
+    "deploy": "npm run test && tsc && firebase deploy && git push origin main",
+    "dev": "",
+    "test": "jest example.test.js"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  }
+}
